@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        body{
+            margin-left: 250px;
+            line-height: 25px; 
+        }
+        .inpt{
+            box-sizing: border-box;
+            width: 850px;
+            height: 35px;
+        }
+        .expdate{
+            width: 420px;
+            height: 35px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <img src="#" alt="logo">
+        <h1>Checkout</h1>
+        <h3>Shipping Address</h3>
+    </header>
+    <main class="main-contant">
+        <form action="">
+            <label for="email" aria-required="true">Email Address</label><br>
+            <input type="email" class="inpt">
+            <p>You can create an account after checkout</p>
+            <label for="name">First <sup>*</sup></label><br>
+            <input type="text" class="inpt" required><br>
+            <label for="name">Last Name<sup>*</sup></label><br>
+            <input type="text" class="inpt"><br>
+            <label for="name">Company<sup>*</sup></label><br>
+            <input type="text" class="inpt"><br>
+            <label for="name">Street Address<sup>*</sup></label><br>
+            <input type="text" class="inpt"><br>
+            <input type="text" class="inpt"><br>
+            <label for="city">City<sup>*</sup></label><br>
+            <input type="city" class="inpt"><br>
+            <label for="state" id="drop-down">State/Province<sup>*</sup></label><br>
+            <input type="drop-down" class="inpt"><br>
+            <label for="zip">Zip/Postal Code<sup>*</sup></label><br>
+            <input type="number" class="inpt"><br>
+            <label for="country">Country<sup>*</sup></label><br>
+            <input type="text" class="inpt"><br>
+            <label for="phone">Phone Number<sup>*</sup></label><br>
+            <input type="number" class="inpt"><br>
+            <input type="checkbox" name="check" id="checkbox">
+            <label for="checkbox">My billing and shipping address are the same<sup>*</sup></label><br>
+
+            <h3>Shipping Methods</h3>
+            <p>Best Way - <span>Table Rate $15.00</span></p>
+            <h3>Payment</h3>
+            <div class="radio">
+                <input type="radio" name="cash" id="rb">
+                <label for="rb">Cash On Delivery</label><br>
+                <input type="radio" name="cash" id="rb">
+                <label for="rb">Pay By Paypal</label><br>
+                <input type="radio" name="cash" id="rb">
+                <label for="rb">Bank Transfer</label><br>
+                <input type="radio" name="cash" id="rb" checked>
+                <label for="rb">Pay By Card</label><br>
+                <label for="cardname">Name On Card</label><br>
+                <input type="text" id="cardname" class="inpt"><br>
+                <label for="cardnumber">Card Number</label><br>
+                <input type="number" id="cardnumber" class="inpt"><br>
+                <label for="date">Expiration Date</label><br>
+                <input type="month" class="expdate"><input type="month" class="expdate"><br>
+                <label for="cvc">CVV/CVS</label><br>
+                <input type="text" class="inpt"><br>
+                <button type="submit">PLACE ORDER</button><br>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
